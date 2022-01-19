@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2022-01-19 11:01:01
+ * @LastEditTime: 2022-01-19 14:11:58
+ * @LastEditors: your name
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: /camerademo-t00p06an/tof_depth_process.h
+ */
 #ifndef __TOF_DEPTH_PROCESS_H__
 #define __TOF_DEPTH_PROCESS_H__
 
@@ -30,8 +38,7 @@ int TofDepthSdkUnInit();
 int TofDepthProcess(TofRawData *pRawData, TofModDepthData *pstTofDepthDataInfo);
 void HandleDepthData_For360(const UINT32 threadIndex, UINT32 frameIndex, std::string& strSaveDir, TofModDepthData* tofFrameData);
 void HandleDepthData(const UINT32 threadIndex, UINT32 frameIndex, std::string& strSaveDir, TofModDepthData* tofFrameData);
-
- bool SavePointDataXYZText(PointData *pPointData, const UINT32 width, const UINT32 height, char* pTxtFile);
+bool SavePointDataXYZText(PointData *pPointData, const UINT32 width, const UINT32 height, char* pTxtFile);
 
 #endif
 

@@ -4,9 +4,12 @@
 COMPILATION_TOOLS_VERSION ?= BUILDROOT
 #TOF_TYPE := MTP013_17FPS
 TOF_SDK_TYPE := T00P06AN
+# 指定当前工程目录
 TRUNK_DIR := $(shell pwd)
+# 指定TOF_DIR
 TOF_DIR := $(TRUNK_DIR)/TOF_SDK/$(TOF_SDK_TYPE)
 TOOL_DIR := $(TRUNK_DIR)/tools/
+# 指定编译结果的目录
 OUT_DIR := $(TRUNK_DIR)/sunnytest/
 
 TARGET := $(TRUNK_DIR)/bin/camerademo
@@ -35,7 +38,7 @@ ifeq ($(COMPILATION_TOOLS_VERSION), BUILDROOT)
 endif
 endif
 
-	
+# 指定源文件
 SRCS = camerademo.cpp camera_control.cpp rgb_camera_control.cpp
 OBJS = $(SRCS:.c=.o)
 OBJS = $(SRCS:.cpp=.o)
