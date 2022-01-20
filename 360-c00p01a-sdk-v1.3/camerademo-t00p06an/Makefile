@@ -29,7 +29,7 @@ ifeq ($(COMPILATION_TOOLS_VERSION), UBUNTU)
 	LIBS += -ltof_mod_sdk -lrga -ltof_rgbd_sdk -lsunnytof
 else
 ifeq ($(COMPILATION_TOOLS_VERSION), BUILDROOT)
-	GCC_DIR :=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/usr/bin
+	GCC_DIR :=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin
 	CC  :=$(GCC_DIR)/aarch64-rockchip-linux-gnu-gcc
 	GCC :=$(GCC_DIR)/aarch64-rockchip-linux-gnu-g++
 	AR  :=$(GCC_DIR)/aarch64-rockchip-linux-gnu-ar
@@ -37,6 +37,12 @@ ifeq ($(COMPILATION_TOOLS_VERSION), BUILDROOT)
 	LIBS += -ltof_mod_sdk -lrga -ltof_rgbd_sdk -lsunnytof
 endif
 endif
+
+$(warning  <<<<<<<<<<<<<<<<<<<<<<<<<<<)
+$(warning  $(GCC_DIR))
+$(warning  $(CC))
+$(warning  $(GCC))
+$(warning  <<<<<<<<<<<<<<<<<<<<<<<<<<<)
 
 # 指定源文件
 SRCS = camerademo.cpp camera_control.cpp rgb_camera_control.cpp

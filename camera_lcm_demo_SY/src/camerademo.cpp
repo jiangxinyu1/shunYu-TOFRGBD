@@ -19,6 +19,7 @@ using namespace chrono;
 #include "tof_rgbd_sdk.h"
 
 #include "calib_params_def.h"
+#include "lcm/lcm.h"
 
 typedef struct tagDevBasicInfo
 {

@@ -1,0 +1,56 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9ca7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9ca7b.dir/build.make CMakeFiles/cmTC_9ca7b.dir/build
+make[1]: 进入目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9ca7b.dir/CheckSymbolExists.c.o
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"   -o CMakeFiles/cmTC_9ca7b.dir/CheckSymbolExists.c.o   -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9ca7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ca7b.dir/link.txt --verbose=1
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_9ca7b.dir/CheckSymbolExists.c.o  -o cmTC_9ca7b 
+CMakeFiles/cmTC_9ca7b.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x14)：对‘pthread_create’未定义的引用
+CheckSymbolExists.c:(.text+0x18)：对‘pthread_create’未定义的引用
+collect2: 错误： ld 返回 1
+CMakeFiles/cmTC_9ca7b.dir/build.make:97: recipe for target 'cmTC_9ca7b' failed
+make[1]: *** [cmTC_9ca7b] Error 1
+make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_9ca7b/fast' failed
+make: *** [cmTC_9ca7b/fast] Error 2
+
+File /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3f5f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3f5f7.dir/build.make CMakeFiles/cmTC_3f5f7.dir/build
+make[1]: 进入目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_3f5f7.dir/CheckFunctionExists.c.o
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3f5f7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3f5f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f5f7.dir/link.txt --verbose=1
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_3f5f7.dir/CheckFunctionExists.c.o  -o cmTC_3f5f7 -lpthreads 
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/../../../../aarch64-rockchip-linux-gnu/bin/ld: 找不到 -lpthreads
+collect2: 错误： ld 返回 1
+CMakeFiles/cmTC_3f5f7.dir/build.make:97: recipe for target 'cmTC_3f5f7' failed
+make[1]: *** [cmTC_3f5f7] Error 1
+make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_3f5f7/fast' failed
+make: *** [cmTC_3f5f7/fast] Error 2
+
+
