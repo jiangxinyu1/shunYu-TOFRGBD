@@ -71,9 +71,6 @@ typedef enum tagMODULE_NAME
 	MODULE_NAME_YMTT002,
 	MODULE_NAME_YMTT003,
 	MODULE_NAME_MTP013,
-
-
-
 	MODULE_NAME_LAST,//新增模组型号放在该枚举值之前（为了兼容，需按先后顺序添加，不得改变原有枚举取值）
 }MODULE_NAME;
 
@@ -173,8 +170,10 @@ typedef struct tagDepthCalRoi
 
 typedef struct tagTofModDepthData
 {
+  // 时间戳
 	UINT64  timeStamp;
-	UINT32  frameWidth;
+	// 
+  UINT32  frameWidth;
 	UINT32  frameHeight;
 
     //
@@ -214,7 +213,6 @@ typedef struct tagTofModDepthDataV20
 	UINT32 nExtDataLen;//pExtData内扩展数据长度，字节数
 
 	TofExpouseCurrentItems  autoExp;//计算出的自动曝光值（当需要自动曝光效果时，需要将该值设置到模组中）
-
 
 	/**************帧内HDRZ融合时特有数据************/
 

@@ -41,5 +41,17 @@ FILE(
   ${PROJECT_SOURCE_DIR}/src/rgb_camera_control.cpp
 )
 
-ADD_EXECUTABLE(camera_lcm_demo_sy ${SRC_FILES})
-TARGET_LINK_LIBRARIES(camera_lcm_demo_sy ${SO_FILES} ${LCM_LIBRARY})
+FILE(
+  GLOB
+  SRC_LCM_FILES
+  ${PROJECT_SOURCE_DIR}/src/camera_control.cpp
+  ${PROJECT_SOURCE_DIR}/src/camerademo_lcm.cpp
+  ${PROJECT_SOURCE_DIR}/src/rgb_camera_control.cpp
+  ${PROJECT_SOURCE_DIR}/src/lcmHandler.cpp
+)
+
+ADD_EXECUTABLE(sy_camerademo ${SRC_FILES})
+TARGET_LINK_LIBRARIES(sy_camerademo ${SO_FILES})
+
+ADD_EXECUTABLE(sy_camerademo_lcm ${SRC_LCM_FILES})
+TARGET_LINK_LIBRARIES(sy_camerademo_lcm ${SO_FILES} ${LCM_LIBRARY})

@@ -1,3 +1,4 @@
 /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/rebuild_cache.dir
-/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/camera_lcm_demo_sy.dir
 /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/edit_cache.dir
+/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/sy_camerademo.dir
+/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/sy_camerademo_lcm.dir

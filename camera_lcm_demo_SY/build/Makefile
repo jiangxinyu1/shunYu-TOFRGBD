@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named camera_lcm_demo_sy
+# Target rules for targets named sy_camerademo
 
 # Build rule for target.
-camera_lcm_demo_sy: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 camera_lcm_demo_sy
-.PHONY : camera_lcm_demo_sy
+sy_camerademo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sy_camerademo
+.PHONY : sy_camerademo
 
 # fast build rule for target.
-camera_lcm_demo_sy/fast:
-	$(MAKE) -f CMakeFiles/camera_lcm_demo_sy.dir/build.make CMakeFiles/camera_lcm_demo_sy.dir/build
-.PHONY : camera_lcm_demo_sy/fast
+sy_camerademo/fast:
+	$(MAKE) -f CMakeFiles/sy_camerademo.dir/build.make CMakeFiles/sy_camerademo.dir/build
+.PHONY : sy_camerademo/fast
+
+#=============================================================================
+# Target rules for targets named sy_camerademo_lcm
+
+# Build rule for target.
+sy_camerademo_lcm: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sy_camerademo_lcm
+.PHONY : sy_camerademo_lcm
+
+# fast build rule for target.
+sy_camerademo_lcm/fast:
+	$(MAKE) -f CMakeFiles/sy_camerademo_lcm.dir/build.make CMakeFiles/sy_camerademo_lcm.dir/build
+.PHONY : sy_camerademo_lcm/fast
 
 src/camera_control.o: src/camera_control.cpp.o
 
@@ -129,7 +142,8 @@ src/camera_control.o: src/camera_control.cpp.o
 
 # target to build an object file
 src/camera_control.cpp.o:
-	$(MAKE) -f CMakeFiles/camera_lcm_demo_sy.dir/build.make CMakeFiles/camera_lcm_demo_sy.dir/src/camera_control.cpp.o
+	$(MAKE) -f CMakeFiles/sy_camerademo.dir/build.make CMakeFiles/sy_camerademo.dir/src/camera_control.cpp.o
+	$(MAKE) -f CMakeFiles/sy_camerademo_lcm.dir/build.make CMakeFiles/sy_camerademo_lcm.dir/src/camera_control.cpp.o
 .PHONY : src/camera_control.cpp.o
 
 src/camera_control.i: src/camera_control.cpp.i
@@ -138,7 +152,8 @@ src/camera_control.i: src/camera_control.cpp.i
 
 # target to preprocess a source file
 src/camera_control.cpp.i:
-	$(MAKE) -f CMakeFiles/camera_lcm_demo_sy.dir/build.make CMakeFiles/camera_lcm_demo_sy.dir/src/camera_control.cpp.i
+	$(MAKE) -f CMakeFiles/sy_camerademo.dir/build.make CMakeFiles/sy_camerademo.dir/src/camera_control.cpp.i
+	$(MAKE) -f CMakeFiles/sy_camerademo_lcm.dir/build.make CMakeFiles/sy_camerademo_lcm.dir/src/camera_control.cpp.i
 .PHONY : src/camera_control.cpp.i
 
 src/camera_control.s: src/camera_control.cpp.s
@@ -147,7 +162,8 @@ src/camera_control.s: src/camera_control.cpp.s
 
 # target to generate assembly for a file
 src/camera_control.cpp.s:
-	$(MAKE) -f CMakeFiles/camera_lcm_demo_sy.dir/build.make CMakeFiles/camera_lcm_demo_sy.dir/src/camera_control.cpp.s
+	$(MAKE) -f CMakeFiles/sy_camerademo.dir/build.make CMakeFiles/sy_camerademo.dir/src/camera_control.cpp.s
+	$(MAKE) -f CMakeFiles/sy_camerademo_lcm.dir/build.make CMakeFiles/sy_camerademo_lcm.dir/src/camera_control.cpp.s
 .PHONY : src/camera_control.cpp.s
 
 src/camerademo.o: src/camerademo.cpp.o
@@ -156,7 +172,7 @@ src/camerademo.o: src/camerademo.cpp.o
 
 # target to build an object file
 src/camerademo.cpp.o:
-	$(MAKE) -f CMakeFiles/camera_lcm_demo_sy.dir/build.make CMakeFiles/camera_lcm_demo_sy.dir/src/camerademo.cpp.o
+	$(MAKE) -f CMakeFiles/sy_camerademo.dir/build.make CMakeFiles/sy_camerademo.dir/src/camerademo.cpp.o
 .PHONY : src/camerademo.cpp.o
 
 src/camerademo.i: src/camerademo.cpp.i
@@ -165,7 +181,7 @@ src/camerademo.i: src/camerademo.cpp.i
 
 # target to preprocess a source file
 src/camerademo.cpp.i:
-	$(MAKE) -f CMakeFiles/camera_lcm_demo_sy.dir/build.make CMakeFiles/camera_lcm_demo_sy.dir/src/camerademo.cpp.i
+	$(MAKE) -f CMakeFiles/sy_camerademo.dir/build.make CMakeFiles/sy_camerademo.dir/src/camerademo.cpp.i
 .PHONY : src/camerademo.cpp.i
 
 src/camerademo.s: src/camerademo.cpp.s
@@ -174,8 +190,62 @@ src/camerademo.s: src/camerademo.cpp.s
 
 # target to generate assembly for a file
 src/camerademo.cpp.s:
-	$(MAKE) -f CMakeFiles/camera_lcm_demo_sy.dir/build.make CMakeFiles/camera_lcm_demo_sy.dir/src/camerademo.cpp.s
+	$(MAKE) -f CMakeFiles/sy_camerademo.dir/build.make CMakeFiles/sy_camerademo.dir/src/camerademo.cpp.s
 .PHONY : src/camerademo.cpp.s
+
+src/camerademo_lcm.o: src/camerademo_lcm.cpp.o
+
+.PHONY : src/camerademo_lcm.o
+
+# target to build an object file
+src/camerademo_lcm.cpp.o:
+	$(MAKE) -f CMakeFiles/sy_camerademo_lcm.dir/build.make CMakeFiles/sy_camerademo_lcm.dir/src/camerademo_lcm.cpp.o
+.PHONY : src/camerademo_lcm.cpp.o
+
+src/camerademo_lcm.i: src/camerademo_lcm.cpp.i
+
+.PHONY : src/camerademo_lcm.i
+
+# target to preprocess a source file
+src/camerademo_lcm.cpp.i:
+	$(MAKE) -f CMakeFiles/sy_camerademo_lcm.dir/build.make CMakeFiles/sy_camerademo_lcm.dir/src/camerademo_lcm.cpp.i
+.PHONY : src/camerademo_lcm.cpp.i
+
+src/camerademo_lcm.s: src/camerademo_lcm.cpp.s
+
+.PHONY : src/camerademo_lcm.s
+
+# target to generate assembly for a file
+src/camerademo_lcm.cpp.s:
+	$(MAKE) -f CMakeFiles/sy_camerademo_lcm.dir/build.make CMakeFiles/sy_camerademo_lcm.dir/src/camerademo_lcm.cpp.s
+.PHONY : src/camerademo_lcm.cpp.s
+
+src/lcmHandler.o: src/lcmHandler.cpp.o
+
+.PHONY : src/lcmHandler.o
+
+# target to build an object file
+src/lcmHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/sy_camerademo_lcm.dir/build.make CMakeFiles/sy_camerademo_lcm.dir/src/lcmHandler.cpp.o
+.PHONY : src/lcmHandler.cpp.o
+
+src/lcmHandler.i: src/lcmHandler.cpp.i
+
+.PHONY : src/lcmHandler.i
+
+# target to preprocess a source file
+src/lcmHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/sy_camerademo_lcm.dir/build.make CMakeFiles/sy_camerademo_lcm.dir/src/lcmHandler.cpp.i
+.PHONY : src/lcmHandler.cpp.i
+
+src/lcmHandler.s: src/lcmHandler.cpp.s
+
+.PHONY : src/lcmHandler.s
+
+# target to generate assembly for a file
+src/lcmHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/sy_camerademo_lcm.dir/build.make CMakeFiles/sy_camerademo_lcm.dir/src/lcmHandler.cpp.s
+.PHONY : src/lcmHandler.cpp.s
 
 src/rgb_camera_control.o: src/rgb_camera_control.cpp.o
 
@@ -183,7 +253,8 @@ src/rgb_camera_control.o: src/rgb_camera_control.cpp.o
 
 # target to build an object file
 src/rgb_camera_control.cpp.o:
-	$(MAKE) -f CMakeFiles/camera_lcm_demo_sy.dir/build.make CMakeFiles/camera_lcm_demo_sy.dir/src/rgb_camera_control.cpp.o
+	$(MAKE) -f CMakeFiles/sy_camerademo.dir/build.make CMakeFiles/sy_camerademo.dir/src/rgb_camera_control.cpp.o
+	$(MAKE) -f CMakeFiles/sy_camerademo_lcm.dir/build.make CMakeFiles/sy_camerademo_lcm.dir/src/rgb_camera_control.cpp.o
 .PHONY : src/rgb_camera_control.cpp.o
 
 src/rgb_camera_control.i: src/rgb_camera_control.cpp.i
@@ -192,7 +263,8 @@ src/rgb_camera_control.i: src/rgb_camera_control.cpp.i
 
 # target to preprocess a source file
 src/rgb_camera_control.cpp.i:
-	$(MAKE) -f CMakeFiles/camera_lcm_demo_sy.dir/build.make CMakeFiles/camera_lcm_demo_sy.dir/src/rgb_camera_control.cpp.i
+	$(MAKE) -f CMakeFiles/sy_camerademo.dir/build.make CMakeFiles/sy_camerademo.dir/src/rgb_camera_control.cpp.i
+	$(MAKE) -f CMakeFiles/sy_camerademo_lcm.dir/build.make CMakeFiles/sy_camerademo_lcm.dir/src/rgb_camera_control.cpp.i
 .PHONY : src/rgb_camera_control.cpp.i
 
 src/rgb_camera_control.s: src/rgb_camera_control.cpp.s
@@ -201,7 +273,8 @@ src/rgb_camera_control.s: src/rgb_camera_control.cpp.s
 
 # target to generate assembly for a file
 src/rgb_camera_control.cpp.s:
-	$(MAKE) -f CMakeFiles/camera_lcm_demo_sy.dir/build.make CMakeFiles/camera_lcm_demo_sy.dir/src/rgb_camera_control.cpp.s
+	$(MAKE) -f CMakeFiles/sy_camerademo.dir/build.make CMakeFiles/sy_camerademo.dir/src/rgb_camera_control.cpp.s
+	$(MAKE) -f CMakeFiles/sy_camerademo_lcm.dir/build.make CMakeFiles/sy_camerademo_lcm.dir/src/rgb_camera_control.cpp.s
 .PHONY : src/rgb_camera_control.cpp.s
 
 # Help Target
@@ -211,14 +284,21 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... camera_lcm_demo_sy"
 	@echo "... edit_cache"
+	@echo "... sy_camerademo"
+	@echo "... sy_camerademo_lcm"
 	@echo "... src/camera_control.o"
 	@echo "... src/camera_control.i"
 	@echo "... src/camera_control.s"
 	@echo "... src/camerademo.o"
 	@echo "... src/camerademo.i"
 	@echo "... src/camerademo.s"
+	@echo "... src/camerademo_lcm.o"
+	@echo "... src/camerademo_lcm.i"
+	@echo "... src/camerademo_lcm.s"
+	@echo "... src/lcmHandler.o"
+	@echo "... src/lcmHandler.i"
+	@echo "... src/lcmHandler.s"
 	@echo "... src/rgb_camera_control.o"
 	@echo "... src/rgb_camera_control.i"
 	@echo "... src/rgb_camera_control.s"

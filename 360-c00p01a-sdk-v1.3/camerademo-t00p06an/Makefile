@@ -72,5 +72,3 @@ $(TARGET): $(OBJS)
 clean:
 	rm -rf $(TARGET) *.o *.a *~ *.bak 
 	rm -rf $(OUT_DIR)/*
-	
-	

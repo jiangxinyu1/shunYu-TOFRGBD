@@ -19,7 +19,6 @@ using namespace chrono;
 #include "tof_rgbd_sdk.h"
 
 #include "calib_params_def.h"
-#include "lcm/lcm.h"
 
 typedef struct tagDevBasicInfo
 {
@@ -266,19 +265,19 @@ void *TofDepthProcessHandler(void *para)
 			//time_stop(&stTimeVal);
 			if (iRet)
 			{
-				printf("TofDepthProcess failed xxxxxxxxxxxxxxxxxxxxxx\n");
+        printf("TofDepthProcess failed xxxxxxxxxxxxxxxxxxxxxx\n");
 			}
 			else
 			{	
 				pstTofOutDataCb->uiFrameCnt = pstTofRawDataCb->uiFrameCnt;
 				pstTofOutDataCb->isAvailable = 1;
- 
+        printf("[DEBUG] : Position 1 ... \n");
 				HandleDepthData(0, pstTofOutDataCb->uiFrameCnt, save_path, &pstTofOutDataCb->stDepthDataInfo);
 
 				if (giCaptureFlag || giLocalTestFlag)
 				{
 					giCaptureFlag = 0;
-
+          printf("[DEBUG] : Position 2 ... \n");
 					HandleDepthData_For360(0, pstTofOutDataCb->uiFrameCnt, save_path, &pstTofOutDataCb->stDepthDataInfo);
 
 					/* Save RAW data */
@@ -294,6 +293,7 @@ void *TofDepthProcessHandler(void *para)
     
 					if(save_data_count > 0)
 					{
+            printf("[DEBUG] : Position 3 ... \n");
 						HandleDepthData_For360(0, pstTofOutDataCb->uiFrameCnt, save_path, &pstTofOutDataCb->stDepthDataInfo);
 
 						/* Save RAW data */
@@ -307,7 +307,6 @@ void *TofDepthProcessHandler(void *para)
 						save_data_count = 11;
 					}
 				}
-				
 			}
 			pthread_mutex_unlock(&sttofOutDataMutex);
 			
@@ -358,8 +357,6 @@ static bool SaveIRimage(unsigned char * ir, const UINT32 width, const UINT32 hei
 	fwrite((char *)ir,1,width*height,fp);
 
 	fclose(fp);
-
-	
 	return true;
 }
 static bool CGrayConvert(float* pGray, const int width, const int height, unsigned char* pU8)
@@ -558,6 +555,9 @@ static void ST_Flush(void)
     while((c = getchar()) != '\n' && c != EOF);
 }
 
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
 int main(int argc, char **argv)
 {
 	int iRet = 0;
@@ -569,7 +569,7 @@ int main(int argc, char **argv)
 	TOF_RAW_DATA_CB_S *pstTofRawDataCb = &gstTofRawDataCb;
 	TOF_OUT_DATA_CB_S *pstTofOutDataCb = &gstTofOutDataCb;
 
-    printf("\n for 360 tof+rgb+rgbd SDK !\n");
+  printf("\n for 360 tof+rgb+rgbd SDK !\n");
 	printf("SDK version: %s\n", tof_get_sdk_version());
 	
 	memset(pstTofRawDataCb, 0, sizeof(*pstTofRawDataCb));

@@ -29,28 +29,28 @@ The CXX compiler identification is GNU, found in "/home/xinyu/workspace/360/shun
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b27a1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b27a1.dir/build.make CMakeFiles/cmTC_b27a1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_6074f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6074f.dir/build.make CMakeFiles/cmTC_6074f.dir/build
 make[1]: 进入目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_b27a1.dir/testCCompiler.c.o
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"   -o CMakeFiles/cmTC_b27a1.dir/testCCompiler.c.o   -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_b27a1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b27a1.dir/link.txt --verbose=1
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_b27a1.dir/testCCompiler.c.o  -o cmTC_b27a1 
+Building C object CMakeFiles/cmTC_6074f.dir/testCCompiler.c.o
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"   -o CMakeFiles/cmTC_6074f.dir/testCCompiler.c.o   -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_6074f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6074f.dir/link.txt --verbose=1
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_6074f.dir/testCCompiler.c.o  -o cmTC_6074f 
 make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_45243/fast"
-/usr/bin/make -f CMakeFiles/cmTC_45243.dir/build.make CMakeFiles/cmTC_45243.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d9498/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9498.dir/build.make CMakeFiles/cmTC_d9498.dir/build
 make[1]: 进入目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_45243.dir/CMakeCCompilerABI.c.o
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"   -o CMakeFiles/cmTC_45243.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_45243
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45243.dir/link.txt --verbose=1
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc     -v -rdynamic CMakeFiles/cmTC_45243.dir/CMakeCCompilerABI.c.o  -o cmTC_45243 
+Building C object CMakeFiles/cmTC_d9498.dir/CMakeCCompilerABI.c.o
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"   -o CMakeFiles/cmTC_d9498.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d9498
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9498.dir/link.txt --verbose=1
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc     -v -rdynamic CMakeFiles/cmTC_d9498.dir/CMakeCCompilerABI.c.o  -o cmTC_d9498 
 使用内建 specs。
 COLLECT_GCC=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc.br_real
 COLLECT_LTO_WRAPPER=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/lto-wrapper
@@ -60,9 +60,9 @@ COLLECT_LTO_WRAPPER=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aa
 gcc 版本 9.3.0 (Buildroot 2018.02-rc3-g548dfbfc13-dirty) 
 COMPILER_PATH=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/../../../../aarch64-rockchip-linux-gnu/bin/
 LIBRARY_PATH=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib/../lib64/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_45243' '-mcpu=cortex-a55' '-mlittle-endian' '-mabi=lp64'
- /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/collect2 -plugin /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cckEsWOr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_45243 /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtbegin.o -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib/../lib64 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_45243.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtend.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_45243' '-mcpu=cortex-a55' '-mlittle-endian' '-mabi=lp64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d9498' '-mcpu=cortex-a55' '-mlittle-endian' '-mabi=lp64'
+ /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/collect2 -plugin /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCre4QW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_d9498 /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtbegin.o -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib/../lib64 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_d9498.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtend.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d9498' '-mcpu=cortex-a55' '-mlittle-endian' '-mabi=lp64'
 make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
 
 
@@ -70,14 +70,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-rockchip-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_45243/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_45243.dir/build.make CMakeFiles/cmTC_45243.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d9498/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d9498.dir/build.make CMakeFiles/cmTC_d9498.dir/build]
   ignore line: [make[1]: 进入目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building C object CMakeFiles/cmTC_45243.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"   -o CMakeFiles/cmTC_45243.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_45243]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45243.dir/link.txt --verbose=1]
-  ignore line: [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc     -v -rdynamic CMakeFiles/cmTC_45243.dir/CMakeCCompilerABI.c.o  -o cmTC_45243 ]
+  ignore line: [Building C object CMakeFiles/cmTC_d9498.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"   -o CMakeFiles/cmTC_d9498.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_d9498]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9498.dir/link.txt --verbose=1]
+  ignore line: [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc     -v -rdynamic CMakeFiles/cmTC_d9498.dir/CMakeCCompilerABI.c.o  -o cmTC_d9498 ]
   ignore line: [使用内建 specs。]
   ignore line: [COLLECT_GCC=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc.br_real]
   ignore line: [COLLECT_LTO_WRAPPER=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/lto-wrapper]
@@ -87,13 +87,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc 版本 9.3.0 (Buildroot 2018.02-rc3-g548dfbfc13-dirty) ]
   ignore line: [COMPILER_PATH=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/../../../../aarch64-rockchip-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib/../lib64/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_45243' '-mcpu=cortex-a55' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/collect2 -plugin /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cckEsWOr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_45243 /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtbegin.o -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib/../lib64 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_45243.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtend.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d9498' '-mcpu=cortex-a55' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/collect2 -plugin /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCre4QW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_d9498 /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtbegin.o -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib/../lib64 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_d9498.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtend.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
     arg [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cckEsWOr.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccCre4QW.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -108,7 +108,7 @@ Parsed C implicit link information from above output:
     arg [-EL] ==> ignore
     arg [-maarch64linux] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_45243] ==> ignore
+    arg [cmTC_d9498] ==> ignore
     arg [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> ignore
     arg [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> ignore
     arg [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtbegin.o] ==> ignore
@@ -118,7 +118,7 @@ Parsed C implicit link information from above output:
     arg [-L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64]
     arg [-L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib] ==> dir [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib]
     arg [-L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib] ==> dir [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib]
-    arg [CMakeFiles/cmTC_45243.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_d9498.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -148,14 +148,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9359e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9359e.dir/build.make CMakeFiles/cmTC_9359e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_015cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_015cf.dir/build.make CMakeFiles/cmTC_015cf.dir/build
 make[1]: 进入目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_9359e.dir/feature_tests.c.o
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"  -std=c11 -o CMakeFiles/cmTC_9359e.dir/feature_tests.c.o   -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9359e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9359e.dir/link.txt --verbose=1
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_9359e.dir/feature_tests.c.o  -o cmTC_9359e 
+Building C object CMakeFiles/cmTC_015cf.dir/feature_tests.c.o
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"  -std=c11 -o CMakeFiles/cmTC_015cf.dir/feature_tests.c.o   -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_015cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_015cf.dir/link.txt --verbose=1
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_015cf.dir/feature_tests.c.o  -o cmTC_015cf 
 make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
 
 
@@ -168,14 +168,14 @@ make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_89048/fast"
-/usr/bin/make -f CMakeFiles/cmTC_89048.dir/build.make CMakeFiles/cmTC_89048.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e3e79/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e3e79.dir/build.make CMakeFiles/cmTC_e3e79.dir/build
 make[1]: 进入目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_89048.dir/feature_tests.c.o
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"  -std=c99 -o CMakeFiles/cmTC_89048.dir/feature_tests.c.o   -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_89048
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89048.dir/link.txt --verbose=1
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_89048.dir/feature_tests.c.o  -o cmTC_89048 
+Building C object CMakeFiles/cmTC_e3e79.dir/feature_tests.c.o
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"  -std=c99 -o CMakeFiles/cmTC_e3e79.dir/feature_tests.c.o   -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e3e79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3e79.dir/link.txt --verbose=1
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_e3e79.dir/feature_tests.c.o  -o cmTC_e3e79 
 make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
 
 
@@ -188,14 +188,14 @@ make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4de6d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4de6d.dir/build.make CMakeFiles/cmTC_4de6d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_b4fda/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b4fda.dir/build.make CMakeFiles/cmTC_b4fda.dir/build
 make[1]: 进入目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_4de6d.dir/feature_tests.c.o
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"  -std=c90 -o CMakeFiles/cmTC_4de6d.dir/feature_tests.c.o   -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4de6d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4de6d.dir/link.txt --verbose=1
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_4de6d.dir/feature_tests.c.o  -o cmTC_4de6d 
+Building C object CMakeFiles/cmTC_b4fda.dir/feature_tests.c.o
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"  -std=c90 -o CMakeFiles/cmTC_b4fda.dir/feature_tests.c.o   -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b4fda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4fda.dir/link.txt --verbose=1
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_b4fda.dir/feature_tests.c.o  -o cmTC_b4fda 
 make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
 
 
@@ -206,28 +206,28 @@ make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b4ed9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b4ed9.dir/build.make CMakeFiles/cmTC_b4ed9.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f3ab3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3ab3.dir/build.make CMakeFiles/cmTC_f3ab3.dir/build
 make[1]: 进入目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_b4ed9.dir/testCXXCompiler.cxx.o
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++  -DUSER=\"xinyu\"   -o CMakeFiles/cmTC_b4ed9.dir/testCXXCompiler.cxx.o -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_b4ed9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4ed9.dir/link.txt --verbose=1
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_b4ed9.dir/testCXXCompiler.cxx.o  -o cmTC_b4ed9 
+Building CXX object CMakeFiles/cmTC_f3ab3.dir/testCXXCompiler.cxx.o
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++  -DUSER=\"xinyu\"   -o CMakeFiles/cmTC_f3ab3.dir/testCXXCompiler.cxx.o -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f3ab3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3ab3.dir/link.txt --verbose=1
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_f3ab3.dir/testCXXCompiler.cxx.o  -o cmTC_f3ab3 
 make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a61fb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a61fb.dir/build.make CMakeFiles/cmTC_a61fb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4ef46/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4ef46.dir/build.make CMakeFiles/cmTC_4ef46.dir/build
 make[1]: 进入目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_a61fb.dir/CMakeCXXCompilerABI.cpp.o
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++  -DUSER=\"xinyu\"   -o CMakeFiles/cmTC_a61fb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_a61fb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a61fb.dir/link.txt --verbose=1
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++      -v -rdynamic CMakeFiles/cmTC_a61fb.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a61fb 
+Building CXX object CMakeFiles/cmTC_4ef46.dir/CMakeCXXCompilerABI.cpp.o
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++  -DUSER=\"xinyu\"   -o CMakeFiles/cmTC_4ef46.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_4ef46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ef46.dir/link.txt --verbose=1
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++      -v -rdynamic CMakeFiles/cmTC_4ef46.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4ef46 
 使用内建 specs。
 COLLECT_GCC=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++.br_real
 COLLECT_LTO_WRAPPER=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/lto-wrapper
@@ -237,9 +237,9 @@ COLLECT_LTO_WRAPPER=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aa
 gcc 版本 9.3.0 (Buildroot 2018.02-rc3-g548dfbfc13-dirty) 
 COMPILER_PATH=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/../../../../aarch64-rockchip-linux-gnu/bin/
 LIBRARY_PATH=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib/../lib64/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a61fb' '-shared-libgcc' '-mcpu=cortex-a55' '-mlittle-endian' '-mabi=lp64'
- /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/collect2 -plugin /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccneZH6B.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_a61fb /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtbegin.o -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib/../lib64 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_a61fb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtend.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a61fb' '-shared-libgcc' '-mcpu=cortex-a55' '-mlittle-endian' '-mabi=lp64'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4ef46' '-shared-libgcc' '-mcpu=cortex-a55' '-mlittle-endian' '-mabi=lp64'
+ /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/collect2 -plugin /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLFD0Zi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_4ef46 /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtbegin.o -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib/../lib64 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_4ef46.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtend.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4ef46' '-shared-libgcc' '-mcpu=cortex-a55' '-mlittle-endian' '-mabi=lp64'
 make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
 
 
@@ -247,14 +247,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-rockchip-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a61fb/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a61fb.dir/build.make CMakeFiles/cmTC_a61fb.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4ef46/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4ef46.dir/build.make CMakeFiles/cmTC_4ef46.dir/build]
   ignore line: [make[1]: 进入目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”]
-  ignore line: [Building CXX object CMakeFiles/cmTC_a61fb.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++  -DUSER=\"xinyu\"   -o CMakeFiles/cmTC_a61fb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_a61fb]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a61fb.dir/link.txt --verbose=1]
-  ignore line: [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++      -v -rdynamic CMakeFiles/cmTC_a61fb.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a61fb ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_4ef46.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++  -DUSER=\"xinyu\"   -o CMakeFiles/cmTC_4ef46.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_4ef46]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ef46.dir/link.txt --verbose=1]
+  ignore line: [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++      -v -rdynamic CMakeFiles/cmTC_4ef46.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4ef46 ]
   ignore line: [使用内建 specs。]
   ignore line: [COLLECT_GCC=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++.br_real]
   ignore line: [COLLECT_LTO_WRAPPER=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/lto-wrapper]
@@ -264,13 +264,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc 版本 9.3.0 (Buildroot 2018.02-rc3-g548dfbfc13-dirty) ]
   ignore line: [COMPILER_PATH=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/../../../../aarch64-rockchip-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib/../lib64/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib/:/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a61fb' '-shared-libgcc' '-mcpu=cortex-a55' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/collect2 -plugin /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccneZH6B.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_a61fb /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtbegin.o -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib/../lib64 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_a61fb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtend.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_4ef46' '-shared-libgcc' '-mcpu=cortex-a55' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/collect2 -plugin /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLFD0Zi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_4ef46 /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtbegin.o -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib/../lib64 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64 -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib -L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_4ef46.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtend.o /home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
     arg [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../libexec/gcc/aarch64-rockchip-linux-gnu/9.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccneZH6B.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccLFD0Zi.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -285,7 +285,7 @@ Parsed CXX implicit link information from above output:
     arg [-EL] ==> ignore
     arg [-maarch64linux] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a61fb] ==> ignore
+    arg [cmTC_4ef46] ==> ignore
     arg [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> ignore
     arg [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> ignore
     arg [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/../lib/gcc/aarch64-rockchip-linux-gnu/9.3.0/crtbegin.o] ==> ignore
@@ -295,7 +295,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib/../lib64]
     arg [-L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib] ==> dir [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/lib]
     arg [-L/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib] ==> dir [/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/aarch64-rockchip-linux-gnu/sysroot/usr/lib]
-    arg [CMakeFiles/cmTC_a61fb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_4ef46.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -321,14 +321,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ac273/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ac273.dir/build.make CMakeFiles/cmTC_ac273.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e5873/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5873.dir/build.make CMakeFiles/cmTC_e5873.dir/build
 make[1]: 进入目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_ac273.dir/feature_tests.cxx.o
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++  -DUSER=\"xinyu\"  -std=c++1z -o CMakeFiles/cmTC_ac273.dir/feature_tests.cxx.o -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ac273
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac273.dir/link.txt --verbose=1
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_ac273.dir/feature_tests.cxx.o  -o cmTC_ac273 
+Building CXX object CMakeFiles/cmTC_e5873.dir/feature_tests.cxx.o
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++  -DUSER=\"xinyu\"  -std=c++1z -o CMakeFiles/cmTC_e5873.dir/feature_tests.cxx.o -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e5873
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5873.dir/link.txt --verbose=1
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_e5873.dir/feature_tests.cxx.o  -o cmTC_e5873 
 make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
 
 
@@ -394,14 +394,14 @@ make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dcbab/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dcbab.dir/build.make CMakeFiles/cmTC_dcbab.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_00988/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00988.dir/build.make CMakeFiles/cmTC_00988.dir/build
 make[1]: 进入目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_dcbab.dir/feature_tests.cxx.o
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++  -DUSER=\"xinyu\"  -std=c++14 -o CMakeFiles/cmTC_dcbab.dir/feature_tests.cxx.o -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_dcbab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcbab.dir/link.txt --verbose=1
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_dcbab.dir/feature_tests.cxx.o  -o cmTC_dcbab 
+Building CXX object CMakeFiles/cmTC_00988.dir/feature_tests.cxx.o
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++  -DUSER=\"xinyu\"  -std=c++14 -o CMakeFiles/cmTC_00988.dir/feature_tests.cxx.o -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_00988
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00988.dir/link.txt --verbose=1
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_00988.dir/feature_tests.cxx.o  -o cmTC_00988 
 make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
 
 
@@ -467,14 +467,14 @@ make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_71e6a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_71e6a.dir/build.make CMakeFiles/cmTC_71e6a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_33eec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_33eec.dir/build.make CMakeFiles/cmTC_33eec.dir/build
 make[1]: 进入目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_71e6a.dir/feature_tests.cxx.o
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++  -DUSER=\"xinyu\"  -std=c++11 -o CMakeFiles/cmTC_71e6a.dir/feature_tests.cxx.o -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_71e6a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71e6a.dir/link.txt --verbose=1
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_71e6a.dir/feature_tests.cxx.o  -o cmTC_71e6a 
+Building CXX object CMakeFiles/cmTC_33eec.dir/feature_tests.cxx.o
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++  -DUSER=\"xinyu\"  -std=c++11 -o CMakeFiles/cmTC_33eec.dir/feature_tests.cxx.o -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_33eec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33eec.dir/link.txt --verbose=1
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_33eec.dir/feature_tests.cxx.o  -o cmTC_33eec 
 make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
 
 
@@ -540,14 +540,14 @@ make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d8b1a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d8b1a.dir/build.make CMakeFiles/cmTC_d8b1a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e4b1b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4b1b.dir/build.make CMakeFiles/cmTC_e4b1b.dir/build
 make[1]: 进入目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_d8b1a.dir/feature_tests.cxx.o
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++  -DUSER=\"xinyu\"  -std=c++98 -o CMakeFiles/cmTC_d8b1a.dir/feature_tests.cxx.o -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d8b1a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8b1a.dir/link.txt --verbose=1
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_d8b1a.dir/feature_tests.cxx.o  -o cmTC_d8b1a 
+Building CXX object CMakeFiles/cmTC_e4b1b.dir/feature_tests.cxx.o
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++  -DUSER=\"xinyu\"  -std=c++98 -o CMakeFiles/cmTC_e4b1b.dir/feature_tests.cxx.o -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e4b1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4b1b.dir/link.txt --verbose=1
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_e4b1b.dir/feature_tests.cxx.o  -o cmTC_e4b1b 
 make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
 
 
@@ -611,28 +611,28 @@ make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cb9c0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cb9c0.dir/build.make CMakeFiles/cmTC_cb9c0.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_98782/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98782.dir/build.make CMakeFiles/cmTC_98782.dir/build
 make[1]: 进入目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_cb9c0.dir/CheckIncludeFile.c.o
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"   -o CMakeFiles/cmTC_cb9c0.dir/CheckIncludeFile.c.o   -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_cb9c0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb9c0.dir/link.txt --verbose=1
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_cb9c0.dir/CheckIncludeFile.c.o  -o cmTC_cb9c0 
+Building C object CMakeFiles/cmTC_98782.dir/CheckIncludeFile.c.o
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"   -o CMakeFiles/cmTC_98782.dir/CheckIncludeFile.c.o   -c /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_98782
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98782.dir/link.txt --verbose=1
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_98782.dir/CheckIncludeFile.c.o  -o cmTC_98782 
 make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4315d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4315d.dir/build.make CMakeFiles/cmTC_4315d.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ac7cf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac7cf.dir/build.make CMakeFiles/cmTC_ac7cf.dir/build
 make[1]: 进入目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_4315d.dir/CheckFunctionExists.c.o
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4315d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_4315d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4315d.dir/link.txt --verbose=1
-/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4315d.dir/CheckFunctionExists.c.o  -o cmTC_4315d -lpthread 
+Building C object CMakeFiles/cmTC_ac7cf.dir/CheckFunctionExists.c.o
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc -DUSER=\"xinyu\"  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ac7cf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ac7cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac7cf.dir/link.txt --verbose=1
+/home/xinyu/.Toolchain/gcc-buildroot-9.3.0-2020.03-x86_64_aarch64-rockchip-linux-gnu/bin/aarch64-rockchip-linux-gnu-gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ac7cf.dir/CheckFunctionExists.c.o  -o cmTC_ac7cf -lpthread 
 make[1]: 离开目录“/home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/build/CMakeFiles/CMakeTmp”
 
 

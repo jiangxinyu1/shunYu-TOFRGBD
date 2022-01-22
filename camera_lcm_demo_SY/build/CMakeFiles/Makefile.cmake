@@ -50,5 +50,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/camera_lcm_demo_sy.dir/DependInfo.cmake"
+  "CMakeFiles/sy_camerademo.dir/DependInfo.cmake"
+  "CMakeFiles/sy_camerademo_lcm.dir/DependInfo.cmake"
   )
