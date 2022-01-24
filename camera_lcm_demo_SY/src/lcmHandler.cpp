@@ -1,37 +1,14 @@
 /*
  * @Author: jiangxinyu
  * @Date: 2021-08-09 16:17:10
- * @LastEditTime: 2022-01-22 14:09:32
+ * @LastEditTime: 2022-01-24 10:37:26
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /360-0366-demo/lcmHandler.cpp
  */
-// extern "C" {
-//     #include "camerademo.h"
-//     #include "calibration.h"
-//     #include "DepthMapWrapper.h"
-// }
 
 #include "lcmHandler.h"
 
-// extern uint8_t raw12_img[336*1557];
-// extern char ir_image[224*114];
-// extern char depth_image[224*114*2];
-// extern char pcloud_image[224*114*sizeof(pc_pkt_t)];
-// extern char depth_data[224*114*sizeof(depth_data_pkt_t)];
-// extern unsigned int pt_count;
-
-typedef struct pc_pack{
-  float X;
-  float Y;
-  float Z;
-  float c;
-}pc_pkt_t;
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -47,9 +24,18 @@ inline int64_t getTimestamp()
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-void lcmHandler::pubDepthImage( char* image , const int width_, const int height_,const int size_ , const std::string &type_)
+/**
+ * @brief  直接由点云数据获取深度图，并发布
+ * 
+ * @param pcloud_image 输入的点云数据
+ * @param width_ 
+ * @param height_ 
+ * @param size_ 
+ * @param type_ 话题名前缀 depth
+ */
+void lcmHandler::pubDepthImage( tagPointData* pcloud_image , const int width_, const int height_,const int size_ , const std::string &type_)
 {
-    uint16_t * image_ = (uint16_t*)image;
+    // uint16_t * image_ = (uint16_t*)pcloud_image;
     lcm_sensor_msgs::Image lcm_image;
     auto ir_t  = timeStamp_;
     lcm_ros::Time irTime;
@@ -64,7 +50,7 @@ void lcmHandler::pubDepthImage( char* image , const int width_, const int height
     // memcpy(lcm_image.data.data(), image_, lcm_image.n_data*sizeof(uint16_t));
     for ( auto i = 0 ; i < size_; i++ )
     {
-        lcm_image.data.at(i) = (uint16_t)(image_[i] & 0X1FFF );
+        lcm_image.data.at(i) = (uint16_t)((pcloud_image[i].z)*1000);
     }
     // std::cout << "lcm_image.data.depth = " << lcm_image.data.at(224*57+112) << "\n";
     const std::string  topicName = type_ + "_image";
@@ -74,7 +60,17 @@ void lcmHandler::pubDepthImage( char* image , const int width_, const int height
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-void lcmHandler::pubIRImage( char* image , const int width_, const int height_,const int size_ , const std::string &type_)
+
+/**
+ * @brief 
+ * 
+ * @param image 
+ * @param width_ 
+ * @param height_ 
+ * @param size_ 
+ * @param type_ 
+ */
+void lcmHandler::pubIRImage( float* image , const int width_, const int height_,const int size_ , const std::string &type_)
 {
     lcm_sensor_msgs::Image lcm_image;
     auto ir_t  = timeStamp_;
@@ -98,10 +94,9 @@ void lcmHandler::pubIRImage( char* image , const int width_, const int height_,c
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-void lcmHandler::pubPointCloud(char* pcloud_image ,const int size_ , const std::string &type_ )
+void lcmHandler::pubPointCloud(tagPointData* pcloud_image , float* image ,const int size_ , const std::string &type_ )
 {
-    pc_pkt_t* pointcloud = (pc_pkt_t*)pcloud_image;
+    tagPointData* pointcloud = pcloud_image;
     lcm_sensor_msgs::PointCloud cloud;
     auto time_t  = timeStamp_;
     lcm_ros::Time pcTime;
@@ -116,13 +111,12 @@ void lcmHandler::pubPointCloud(char* pcloud_image ,const int size_ , const std::
     for (auto i = 0 ; i < size_; i++ )
     {
         lcm_geometry_msgs::Point32 pointTmp;
-        pointTmp.x = pointcloud[i].X;
-        pointTmp.y = pointcloud[i].Y;
-        pointTmp.z = pointcloud[i].Z;
+        pointTmp.x = pointcloud[i].x;
+        pointTmp.y = pointcloud[i].y;
+        pointTmp.z = pointcloud[i].z;
         cloud.points.push_back(pointTmp);
-        cloud.channels[0].values[i] = pointcloud[i].c;
+        cloud.channels[0].values[i] = image[i];
     }
-    // std::cout << "pointcloud.z = " << pointcloud[224*57+112].Z << "\n";
     const std::string  topicName = type_ ;
     _lcm->publish(topicName, &cloud);
 }

@@ -261,6 +261,7 @@ void *TofDepthProcessHandler(void *para)
 			pthread_mutex_lock(&sttofOutDataMutex);
 
 			//time_start(&stTimeVal);
+      printf("[DEBUG] : Position 0 ... \n");
 			iRet = TofDepthProcess(&pstTofRawDataCb->stRawData, &pstTofOutDataCb->stDepthDataInfo);
 			//time_stop(&stTimeVal);
 			if (iRet)

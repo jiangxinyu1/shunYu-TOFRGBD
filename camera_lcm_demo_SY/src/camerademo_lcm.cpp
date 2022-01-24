@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-01-20 11:17:47
- * @LastEditTime: 2022-01-20 11:37:13
+ * @LastEditTime: 2022-01-24 10:46:04
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: /camera_lcm_demo_SY/src/camera_demo_lcm.cpp
@@ -31,6 +31,13 @@ using namespace chrono;
 #include "calib_params_def.h"
 
 #include "lcmHandler.h"
+
+
+
+struct Param {
+  void *p1;
+  lcmHandler handler_;
+};
 
 
 typedef struct tagDevBasicInfo
@@ -254,8 +261,10 @@ void *GetTofRawDataHandler(void *para)
 }
 
 
+
 void *TofDepthProcessHandler(void *para)
 {
+	lcmHandler handler = *(lcmHandler*)para;
 	int iRet = 0;
 	unsigned int uiOutDataSize = 0;
 	std::string save_path = "./capture";
@@ -265,7 +274,7 @@ void *TofDepthProcessHandler(void *para)
 	TOF_RAW_DATA_CB_S *pstTofRawDataCb = &gstTofRawDataCb;
 	TOF_OUT_DATA_CB_S *pstTofOutDataCb = &gstTofOutDataCb;
 
-	while(isRuning)
+	while(isRuning && handler.isLcmOk())
 	{
 		if (pstTofRawDataCb->isAvailable && pstTofRawDataCb->stRawData.pRaw)
 		{		
@@ -284,10 +293,9 @@ void *TofDepthProcessHandler(void *para)
 			{	
 				pstTofOutDataCb->uiFrameCnt = pstTofRawDataCb->uiFrameCnt;
 				pstTofOutDataCb->isAvailable = 1;
- 
 				HandleDepthData(0, pstTofOutDataCb->uiFrameCnt, save_path, &pstTofOutDataCb->stDepthDataInfo);
 
-				if (giCaptureFlag || giLocalTestFlag)
+        if (giCaptureFlag || giLocalTestFlag)
 				{
 					giCaptureFlag = 0;
 
@@ -295,34 +303,25 @@ void *TofDepthProcessHandler(void *para)
 
 					/* Save RAW data */
 					snprintf(acRawPath, 32, "./capture/%d-Raw.data", pstTofOutDataCb->uiFrameCnt);
-					FileWrite(acRawPath, pstTofRawDataCb->stRawData.pRaw, pstTofRawDataCb->stRawData.nRawLen);
+					// FileWrite(acRawPath, pstTofRawDataCb->stRawData.pRaw, pstTofRawDataCb->stRawData.nRawLen);
 				
 					printf("-------------> Capture tof raw done\n");
 				}
-
-				if(giCaptureFlag_10frame)
-				{
-					save_data_count--;
-    
-					if(save_data_count > 0)
-					{
-						HandleDepthData_For360(0, pstTofOutDataCb->uiFrameCnt, save_path, &pstTofOutDataCb->stDepthDataInfo);
-
-						/* Save RAW data */
-						snprintf(acRawPath, 32, "./capture/%d-Raw.data", pstTofOutDataCb->uiFrameCnt);
-						FileWrite(acRawPath, pstTofRawDataCb->stRawData.pRaw, pstTofRawDataCb->stRawData.nRawLen);
-					}
-
-					if(save_data_count == 0)
-					{
-						giCaptureFlag_10frame = 0;
-						save_data_count = 11;
-					}
-				}
-				
 			}
+
+      // pub pointcloud data
+      const int height_ = pstTofOutDataCb->stDepthDataInfo.frameHeight;
+      const int width_ = pstTofOutDataCb->stDepthDataInfo.frameWidth;
+      const int sizeImage =  height_*width_;
+       // printf("\n>>>>>>>>>> %i\n", pstTofOutDataCb->stDepthDataInfo.grayFormat);
+      
+      handler.pubIRImage((float*)pstTofOutDataCb->stDepthDataInfo.pGrayData,width_,height_,sizeImage,"ir");
+      handler.pubDepthImage(pstTofOutDataCb->stDepthDataInfo.pPointData,width_,height_,sizeImage,"depth");
+      handler.pubPointCloud(pstTofOutDataCb->stDepthDataInfo.pPointData,
+                                                (float*)pstTofOutDataCb->stDepthDataInfo.pGrayData,
+                                                sizeImage,"pointcloud_3d");
+
 			pthread_mutex_unlock(&sttofOutDataMutex);
-			
 			pstTofRawDataCb->isAvailable = 0;
 			pstTofRawDataCb->isProcess = 0;
 			
@@ -332,10 +331,11 @@ void *TofDepthProcessHandler(void *para)
 			usleep(5000);
 			continue;
 		}
-	}
+	}//while
 
 	return NULL;
 }
+
 
 
 template <class T>
@@ -374,6 +374,9 @@ static bool SaveIRimage(unsigned char * ir, const UINT32 width, const UINT32 hei
 	
 	return true;
 }
+
+
+
 static bool CGrayConvert(float* pGray, const int width, const int height, unsigned char* pU8)
 {
 	const int pixel_cnt = width*height;
@@ -444,7 +447,7 @@ void *RGBD_Handler(void *para)
 	struInputParam.nRgbWidth = nRgbWidth;
 	struInputParam.nRgbHeight = nRgbHeight;
 
-	struInputParam.inGrayFormat = inGrayFormat;	
+	struInputParam.inGrayFormat = inGrayFormat;
 	
 	TofRgbdOutputData struDataOut;
 	memset(&struDataOut, 0, sizeof(struDataOut));
@@ -575,6 +578,15 @@ static void ST_Flush(void)
 //////////////////////////////////////////////////////////////////////////////////////////
 int main(int argc, char **argv)
 {
+  // 注册LCM节点
+  lcm::LCM node(getUdpmAddr(true), true);
+  if( !node.good() )
+  {
+    printf("LCM is not ready !!! \n");
+    return 1;
+  }
+  lcmHandler handler(&node);
+  
 	int iRet = 0;
 	int i;
 	int result;
@@ -584,6 +596,7 @@ int main(int argc, char **argv)
 	TOF_RAW_DATA_CB_S *pstTofRawDataCb = &gstTofRawDataCb;
 	TOF_OUT_DATA_CB_S *pstTofOutDataCb = &gstTofOutDataCb;
 
+  // 打印SDK版本号
   printf("\n for 360 tof+rgb+rgbd SDK !\n");
 	printf("SDK version: %s\n", tof_get_sdk_version());
 	
@@ -652,10 +665,10 @@ int main(int argc, char **argv)
 			printf("TofDepthSdkInit failed\n");
 		}
 	}
-
+  
 	pthread_create(&stTofRawTrdId, NULL, GetTofRawDataHandler, NULL);///tof
 	pthread_create(&stRGBRawTrdId, NULL, GetRGBRawDataHandler, NULL);///rgb
-	pthread_create(&stDepthCalTrdId, NULL, TofDepthProcessHandler, NULL);///tof depth
+	pthread_create(&stDepthCalTrdId, NULL, TofDepthProcessHandler, &handler);///tof depth
 	///pthread_create(&stOutDataSendTrdId, NULL, TofOutDataHandler, NULL);
 	pthread_create(&stRGBDRawTrdId, NULL, RGBD_Handler, NULL);///rgbd
 

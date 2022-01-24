@@ -125,6 +125,8 @@ lcm_ros/lcm_utils.h
 ../src/include/lcm_ros/lcm_utils.h
 protocol/protocol.h
 ../src/include/protocol/protocol.h
+tof_typedef.h
+../src/include/tof_typedef.h
 
 ../src/include/rga-yuv-rgba.h
 

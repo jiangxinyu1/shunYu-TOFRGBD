@@ -1,7 +1,7 @@
 /*
  * @Author: jiangxinyu
  * @Date: 2021-08-09 16:16:37
- * @LastEditTime: 2022-01-20 11:35:52
+ * @LastEditTime: 2022-01-22 17:48:28
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /360-0366-demo/lcmHandler.h
@@ -17,6 +17,9 @@
 #include "lcm_ros/time.h"
 #include "lcm_ros/lcm_utils.h"
 #include "protocol/protocol.h"
+
+
+#include "tof_typedef.h"
 // #include <opencv2/opencv.hpp>
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -31,9 +34,11 @@ class lcmHandler{
 public:
     lcmHandler(lcm::LCM * lcm) : _lcm(lcm) {}
 
-    void pubDepthImage(char* image , const int width_, const int height_,const int size_ , const std::string &type_);
-    void pubIRImage(char* image , const int width_, const int height_,const int size_ , const std::string &type_);
-    void pubPointCloud(char* pcloud_image ,const int size_ , const std::string &type_ );
+    void pubDepthImage(tagPointData* pcloud_image , const int width_, const int height_,const int size_ , const std::string &type_);
+    void pubIRImage(float* image , const int width_, const int height_,const int size_ , const std::string &type_);
+    // void pubPointCloud(tagPointData* pcloud_image ,const int size_ , const std::string &type_ );
+    void pubPointCloud(tagPointData* pcloud_image , float* image ,const int size_ , const std::string &type_ );
+    // void pubPointCloud(tagPointData* pPointData ,const int size_ , const std::string &type_ );
     void getTime();
 
     bool isLcmOk()

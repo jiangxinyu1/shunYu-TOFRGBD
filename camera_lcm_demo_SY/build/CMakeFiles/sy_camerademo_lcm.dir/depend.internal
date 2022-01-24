@@ -44,6 +44,7 @@ CMakeFiles/sy_camerademo_lcm.dir/src/camerademo_lcm.cpp.o
  /home/xinyu/cleanRobot/thirdparty/include/protocol/protocol.h
  /home/xinyu/workspace/360/shunYu-TOFRGBD/camera_lcm_demo_SY/src/camerademo_lcm.cpp
 CMakeFiles/sy_camerademo_lcm.dir/src/lcmHandler.cpp.o
+ ../TOF_SDK/T00P06AN/include/tof_typedef.h
  ../src/include/lcmHandler.h
  /home/xinyu/cleanRobot/thirdparty/include/lcm/eventlog.h
  /home/xinyu/cleanRobot/thirdparty/include/lcm/lcm-cpp-impl.hpp
